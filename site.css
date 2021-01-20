@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.parallax-window {
+    position: relative;
+    min-height: 500px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.parallax-window .title {
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 65px;
+}
+
+.parallax-window .subtitle {
+    text-align: center;
+    font-weight: 300;
+}
+
+.parallax-window .button {
+    display: inline-block;
+    color: #fff;
+    width: 200px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    outline: none;
+    margin-top: 50px;
+    line-height: 43px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+}
+
+.parallax-window .button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.parallax-window .center-container {
+    display: table;
+    height: 500px;
+    width: 100%;
+}
+
+.parallax-window .center-container .text-container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 300;
+}
+
+.parallax-window .center-container .text-container h1,
+.parallax-window .center-container .text-container h2,
+.parallax-window .center-container .text-container h3,
+.parallax-window .center-container .text-container h4,
+.parallax-window .center-container .text-container h5,
+.parallax-window .center-container .text-container h6,
+.parallax-window .center-container .text-container p {
+    font-weight: 300;
+}
+
+.text-lg {
+    font-size: 65px;
+}
+
+.m-nil {
+    margin: 0;
+}
+
+.m-t-nil {
+    margin-top: 0;
+}
+
+.m-b-nil {
+    margin-bottom: 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+}
+
+section {
+    padding: 25px 0 35px;
+    background: #fff;
+    color: #333;
+}
+
+
+.product-thumbnail {
+    width: 100%;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-thumbnail:hover {
+    transform: scale(1.1);
+}
